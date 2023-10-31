@@ -19,6 +19,8 @@ audioData = getaudiodata(recObj);
 wavFileName = 'recorded_audio.wav';
 audiowrite(wavFileName, audioData, fs);
 
+hw1_2(wavFileName)
+
 disp(['声波信号已保存为 ', wavFileName]);
 
 % 清理录音对象
